@@ -1,15 +1,11 @@
-function Profile() {
-  return <img src="https://i.imgur.com/MK3eW3Am.jpg" alt="Katherine Johnson" />;
-}
+import Gallery from "./Gallery";
+import { Profile } from "./Profile";
 
-export default function Gallery() {
+export default function App() {
   return (
-    <section>
-      <h1>Amazing Scientists</h1>
+    <div>
       <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
+      <Gallery />
+    </div>
   );
 }
